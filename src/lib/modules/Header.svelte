@@ -6,9 +6,9 @@
 	import AppImage from '../components/AppImage.svelte';
 </script>
 
-<header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
+<header class="flex justify-between absolute z-10 top-0 left-0 right-0 mx-auto w-full">
+	<div class="w-12 h-12">
+		<a href="https://kit.svelte.dev" target="_blank">
 			<AppImage src={logo} alt="SvelteKit" style="width: 2em; height: 2em; object-fit: contain;"/>
 		</a>
 	</div>
@@ -21,14 +21,14 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<AppLink text="Home" href="/"/>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+			<!-- <li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<AppLink text="About" href="/about"/>
+			</li> -->
+			<li aria-current={$page.url.pathname === '/about-me' ? 'page' : undefined}>
+				<AppLink text="About" href="/about-me"/>
 			</li>
 			<li aria-current={$page.url.pathname === '/pokemon' ? 'page' : undefined}>
 				<AppLink text="Pokemons" href="/pokemon"/>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<AppLink text="Sverdle" href="/sverdle"/>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -37,22 +37,13 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
+		<a href="https://github.com/sveltejs/kit" target="_blank">
 			<AppImage src={github} alt="GitHub" style="width: 2em; height: 2em; object-fit: contain;"/>
 		</a>
 	</div>
 </header>
 
 <style>
-	header {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
 
 	.corner a {
 		display: flex;

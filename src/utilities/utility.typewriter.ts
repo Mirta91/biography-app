@@ -1,0 +1,4 @@
+
+  function toggleShowMore() {
+    showMore = !showMore;
+  }

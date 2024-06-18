@@ -1,0 +1,57 @@
+<script lang="ts">
+	import AppImage from '$lib/components/AppImage.svelte';
+	import AppTypewriter from '$lib/components/AppTypewriter.svelte';
+
+	import background from '$lib/images/bckg-code-1.jpg';
+	import mirta from '$lib/images/mirta.jpeg';
+
+	import { onMount } from 'svelte';
+    import { fade } from 'svelte/transition'
+
+    let visible = false;
+
+    onMount(async () => {
+        visible = true;
+    });
+    
+
+</script>
+
+<div class="w-full h-[60vh] bg-black relative">
+    <!-- <div class="bckg-img w-full h-full object-cover"></div> -->
+    <AppImage src={background} alt="background" class="w-full h-full object-cover opacity-80 blur-[2px]"/>
+    {#if visible}
+    <div transition:fade={{ delay: 500, duration: 500 }} class="absolute w-full h-full left-0 top-0 flex  flex-col md:flex-row justify-center items-center gap-7 md:gap-28">
+        <AppImage src={mirta} alt="mirta" class="w-32 h-32 md:w-64 md:h-64 rounded-full border-4 border-white"/>
+        <div class="text-white md:min-w-[302px]">
+            <h1 class="text-center md:text-left"><AppTypewriter text="Mirta Štefanac"></AppTypewriter></h1>       
+            
+            
+            <h2 transition:fade={{ delay: 2800, duration: 500 }}>Web developer</h2>
+        </div>
+    </div>
+    {/if}
+
+</div>
+
+<style>
+    .cursor {
+		display: inline-block;
+		width: 6px;
+		height: 1.8rem;
+		background: red;
+		animation: blink 0.8s infinite;
+	}
+
+    @keyframes blink {
+		0% {
+			background: transparent;
+		}
+		40% {
+			background: #ff3e00;
+		}
+		to {
+			background: #ff3e00;
+		}
+	}
+</style>
