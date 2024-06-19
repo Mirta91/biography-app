@@ -2,9 +2,9 @@
 
 	import AboutHeader from "./AboutHeader.svelte";
 	import AboutIntro from "./AboutIntro.svelte";
-	import AboutProjects from "./AboutProjects.svelte";
+	import AboutSkills from "./AboutSkills.svelte";
 
 </script>
 <AboutHeader />
 <AboutIntro />
-<AboutProjects />
+<AboutSkills />

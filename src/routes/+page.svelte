@@ -3,6 +3,7 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import svelteAwesome from '$lib/images/awesome-svelte.svg';
+	import AppButton from '$lib/components/AppButton.svelte';
 
 	let appName = "SvelteKit App"
 	let textColor = 'text-black';
@@ -41,7 +42,7 @@
 
 <section>
 	<!-- <img src={svelteAwesome} alt="svelteAwesome" class="max-w-64" /> -->
-	<span class="welcome mt-8">
+	<span class="welcome mt-20">
 
 		<picture>
 			<source srcset={welcome} type="image/webp" />
@@ -49,11 +50,11 @@
 		</picture>
 	</span>
 
-	<h1 class="-m-10">
+	<h1 class="-m-16">
 		<span class="{textColor} font-mono">to the {appName} playground</span> 
 	</h1>
 	
-	<br><br>
+	<br><br><br>
 
 	{#if show}
 		<span> This text is initaly hidden! </span>
@@ -62,17 +63,17 @@
 	{/if}
 
 	<div class="flex gap-2">
-		<button
+		<AppButton 
 			on:click|once="{() => textColor = 'text-svOrange'}" 
-			class="bg-svOrange text-[#fff] hover:brightness-75 transition-all duration-300 ease-in-out font-bold py-2 px-4 rounded">
-			Change text color once
-		</button>
+			class="btn-orange" 
+			text="Change text color once">
+		</AppButton>
 
-		<button 
-			on:click="{toggle}" 
-			class="bg-svOrange text-white hover:brightness-75 font-bold py-2 px-4 rounded">
+		<AppButton 
+			on:click={() => toggle()} 
+			class="btn-orange">
 			<span class="!text-white">Toggle me</span>
-		</button>
+		</AppButton>
 	</div>
 
 	<br>
@@ -86,7 +87,12 @@
 		bind:value={user} 
 		class="border rounded-md border-svOrange p-2" />
 	<br>
-	<button on:click="{addUser(user)}" class="bg-svOrange text-white hover:brightness-75 font-bold py-2 px-4 rounded"><span class="!text-white">Add one more!</span></button>
+
+	<AppButton 
+		on:click={() => addUser(user)} 
+		class="btn-orange">
+		<span class="!text-white">Add one more!</span>
+	</AppButton>
 
 	<br>
 	<h2 class="text-lg font-bold underline">Reactivityyyy</h2>
