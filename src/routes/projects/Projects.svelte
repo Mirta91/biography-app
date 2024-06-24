@@ -6,7 +6,7 @@
 </script>
 
 <div class="container max-w-screen-md">
-    <h3 class="text-left pb-5">Projects</h3>
+    <h3 class="text-center pb-5 text-xl">My projects</h3>
     <div class="flex flex-col items-center sm:items-start sm:grid sm:grid-cols-2 gap-8">
         {#each projects as project}
             <Project

@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { getPokemons, getPokemonByName } from "../../api/api.pokemons";
+    import { getPokemons, getPokemonByName } from "../../../api/api.pokemons";
     const endpoint = "https://pokeapi.co/api/v2/pokemon/";
 
     let data;

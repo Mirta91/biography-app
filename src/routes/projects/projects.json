@@ -139,7 +139,7 @@
         "name": "WBG Maturity model",
         "links": [
             {
-                "name": "WEB APP",
+                "name": "Web",
                 "url": "https://maturity-model-app.netlify.app/"
             },
             {
@@ -147,9 +147,9 @@
                 "url": "https://github.com/Mirta91/maturity-model-app"
             }
         ],
-        "description": "",
+        "description": "In-house project for WBG. This Maturity Assessment Diagnostic aims to help Task Team Leaders (TTLs) carry out a quick diagnostic of licensing and inspections systems.",
         "icon": "",
-        "image":"",
+        "image":"./lib/images/project-maturity.png",
         "tags": [
             {
                 "name": "Vue.js",
@@ -208,7 +208,7 @@
     },
     {
         "name": "Textum",
-        "description": "Textum is a german company and today one of the leading companies in the production and sales of textiles",
+        "description": "Textum is one of the leading companies in the production and sales of textiles. ",
         "links": [
             {
                 "name": "Web",
@@ -249,6 +249,7 @@
     },
     {
         "name": "LayZ",
+        "description": "Sister company of Textum, producing beanbags out of Textum's materials.",
         "links": [
             {
                 "name": "Web",

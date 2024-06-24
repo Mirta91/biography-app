@@ -1,6 +1,6 @@
 <script lang="ts">
 	import AppImage from "$lib/components/AppImage.svelte";
-
+    
     export let title;
     export let links;
     export let image;
