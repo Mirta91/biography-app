@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Project from "./ProjectItem.svelte";
     import projects from "./projects.json";
+    import type { ProjectInterface } from "../../../interfaces/interfaces"; 
 
 </script>
 
@@ -17,12 +18,5 @@
                 tags={project.tags}
             />
         {/each}
-    </div>
-
-        
-        
+    </div>  
 </div>
-
-<style>
-   
-</style>

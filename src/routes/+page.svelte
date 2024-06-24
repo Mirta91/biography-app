@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Counter from '../lib/modules/Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
@@ -24,7 +24,7 @@
 		show = !show;
 	}
 
-	const addUser = (newUser) => {
+	const addUser = (newUser: string) => {
 		if(newUser){
 			users = [...users, {
 				name: newUser

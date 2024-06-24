@@ -4,6 +4,9 @@
 
 	import background from '$lib/images/bckg-code-1.jpg';
 	import mirta from '$lib/images/mirta.jpeg';
+	import stack from '$lib/images/stack.png';
+	import github from '$lib/images/github-circle.svg';
+	import linkedin from '$lib/images/linkedin.svg';
 
 	import { onMount } from 'svelte';
     import { fade } from 'svelte/transition'
@@ -25,10 +28,22 @@
         <AppImage src={mirta} alt="mirta" class="w-32 h-32 md:w-64 md:h-64 rounded-full border-4 border-white"/>
         <div class="text-white md:min-w-[302px]">
             <h1 class="text-center md:text-left"><AppTypewriter text="Mirta Štefanac"></AppTypewriter></h1>       
-            
-            
             <h2 transition:fade={{ delay: 2800, duration: 500 }}>Web developer</h2>
+			<div  class="flex row gap-2 justify-start items-center">
+				<a href="https://stackoverflow.com/users/4038579/mirta">
+					<AppImage src={stack} class="w-6 h-6 p-1" alt="stack overflow" />
+				</a>
+			
+				<a href="https://github.com/Mirta91" class=" rounded-full">
+					<AppImage src={github} class="w-6 h-6  rounded-full" alt="github" />
+				</a>
+			
+				<a href="https://www.linkedin.com/in/mirtastefanac/">
+					<AppImage src={linkedin} class="w-6 h-6 p-1 b" alt="linkedin" />
+				</a>
+			</div>
         </div>
+		
     </div>
     {/if}
 

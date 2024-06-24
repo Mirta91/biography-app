@@ -102,11 +102,15 @@
         ]
     },
     {
-        "name": "Business reg Palestine",
+        "name": "Business Registration Forms",
         "links": [
             {
-                "name": "Web",
-                "url": "https://gov.hr/en/start-plus-2518/2517"
+                "name": "Web App",
+                "url": "https://wbg-forms.netlify.app/"
+            },
+            {
+                "name": "GitHub",
+                "url": "https://github.com/Mirta91/wbg-forms"
             }
         ],
         "description": "Worked closely with Washington and Palestine law teams on digitalization of registering a business in Palestine. We developed a web solution containing all the necessary forms both in English and Arabic. ",
@@ -127,6 +131,44 @@
             },
             {
                 "name": "Design",
+                "link": "/"
+            }
+        ]
+    },
+    {
+        "name": "WBG Maturity model",
+        "links": [
+            {
+                "name": "WEB APP",
+                "url": "https://maturity-model-app.netlify.app/"
+            },
+            {
+                "name": "GitHub",
+                "url": "https://github.com/Mirta91/maturity-model-app"
+            }
+        ],
+        "description": "",
+        "icon": "",
+        "image":"",
+        "tags": [
+            {
+                "name": "Vue.js",
+                "link": "/"
+            },
+            {
+                "name": "Tailwind",
+                "link": "/"
+            },
+            {
+                "name": "JSON",
+                "link": "/"
+            },
+            {
+                "name": "Presentation",
+                "link": "/"
+            },
+            {
+                "name": "UX/UI Design",
                 "link": "/"
             }
         ]
