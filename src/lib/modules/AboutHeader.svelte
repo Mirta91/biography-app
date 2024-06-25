@@ -54,14 +54,6 @@
 </div>
 
 <style>
-    .cursor {
-		display: inline-block;
-		width: 6px;
-		height: 1.8rem;
-		background: red;
-		animation: blink 0.8s infinite;
-	}
-
     @keyframes blink {
 		0% {
 			background: transparent;

@@ -2,7 +2,7 @@
 	import { createEventDispatcher } from "svelte";
     import { fade } from 'svelte/transition'
 
-	export let text = "";
+	//export let text = "";
 
 	let cssClass;
     export { cssClass as class };

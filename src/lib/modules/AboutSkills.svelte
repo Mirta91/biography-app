@@ -1,7 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-
-  import skills from "$lib/data/skills.json";
+  //import skills from "$lib/data/skills.json";
 	import css3 from '$lib/images/skills/css3.svg';
 	import sass from '$lib/images/skills/sass.svg';
 	import html5 from '$lib/images/skills/html5.svg';
@@ -14,6 +13,7 @@
 	import vuejs from '$lib/images/skills/vuejs.svg';
 	import tailwind from '$lib/images/skills/tailwind.svg';
 	import nodejs from '$lib/images/skills/nodejs.svg';
+	import mongodb from '$lib/images/skills/mongodb.svg';
 
 	import vscode from '$lib/images/skills/vscode.svg';
 	import npm from '$lib/images/skills/npm.svg';
@@ -23,19 +23,14 @@
 	import postman from '$lib/images/skills/postman.svg';
 	import ai from '$lib/images/skills/ai.svg';
 
+  export let skills;
 
   let searchQuery = '';
   let sortColumn = '';
   let sortDirection = 'asc';
   let rows = skills;
 
-  /* { name: 'Prolog', type: "Tech", level: 2 }, */
-
   let filteredRows = [...rows];
-
-/*   onMount(() => {
-    filterTable();
-  }); */
 
   function filterTable() {
     filteredRows = rows.filter((row) =>
@@ -107,6 +102,7 @@
       <AppImage src="{vuejs}" class="w-12 h-12" />
       <AppImage src="{tailwind}" class="w-12 h-12" />
       <AppImage src="{nodejs}" class="w-12 h-12" />
+      <AppImage src="{mongodb}" class="w-16 h-12" />
     </div>
 
     <span class="block py-3">Tools / Platforms</span>
@@ -126,7 +122,7 @@
     placeholder="Search all skills / technologies / tools"
     bind:value={searchQuery}
     on:input={filterTable}
-    class="mb-4 p-2 border border-svOrange min-w-[380px] focus:outline-svOrange"
+    class="mt-6 mb-4 p-2 border border-svOrange min-w-[380px] focus:outline-svOrange"
   />
   <div class="grid-container custom-scrollbar">
     <button

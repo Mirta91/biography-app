@@ -149,7 +149,7 @@
         ],
         "description": "In-house project for WBG. This Maturity Assessment Diagnostic aims to help Task Team Leaders (TTLs) carry out a quick diagnostic of licensing and inspections systems.",
         "icon": "",
-        "image":"./lib/images/project-maturity.png",
+        "image":"https://maturity-model-app.netlify.app/assets/table-2.72846116.png",
         "tags": [
             {
                 "name": "Vue.js",
