@@ -27,6 +27,9 @@
 			<!-- <li aria-current={$page.url.pathname === '/about-me' ? 'page' : undefined}>
 				<AppLink text="About" href="/about-me"/>
 			</li> -->
+			<li aria-current={$page.url.pathname === '/skills' ? 'page' : undefined}>
+				<AppLink text="Skills" href="/skills"/>
+			</li>
 			<li aria-current={$page.url.pathname === '/projects' ? 'page' : undefined}>
 				<AppLink text="Projects" href="/projects"/>
 			</li>

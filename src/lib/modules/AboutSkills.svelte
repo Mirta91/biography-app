@@ -9,7 +9,7 @@
 	import AppImage from '$lib/components/AppImage.svelte';
 
 	import svelte from '$lib/images/svelte-logo.svg';
-	import sveltekit from '$lib/images/skills/sveltekit.svg';
+	//import sveltekit from '$lib/images/skills/sveltekit.svg';
 	import vuejs from '$lib/images/skills/vuejs.svg';
 	import tailwind from '$lib/images/skills/tailwind.svg';
 	import nodejs from '$lib/images/skills/nodejs.svg';
@@ -81,49 +81,51 @@
   }
 </style>
 
-<div class="container max-w-screen-md">
+<div class="container max-w-screen-md mt-24">
 
   <div class="pb-6">
-    <h3 class="text-xl"> 🛠️ Technologies & Skills </h3>
-    
-    <span class="block py-3">Languages</span>
+    <h3 class="text-xl font-bold pb-4"> 🛠️ Technologies & Skills </h3>
+    <p>
+      I possess a diverse skill set encompassing both development and design disciplines. My expertise ranges from modern frontend frameworks and tools to UI/UX design, ensuring comprehensive and effective web solutions.
+    </p>
+    <span class="block pt-6 pb-3">Languages</span>
     <div class="flex gap-4">
-      <AppImage src="{html5}" class="w-12 h-12" />
-      <AppImage src="{css3}" class="w-12 h-12" />
-      <AppImage src="{sass}" class="w-12 h-12" />
-      <AppImage src="{javascript}" class="w-12 h-12" />
-      <AppImage src="{typescript}" class="w-12 h-12" />
+      <AppImage src="{html5}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{css3}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{sass}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{javascript}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{typescript}" class="w-12 h-12" alt="skill" />
     </div>
 
-    <span class="block py-3">Frameworks / Libraries</span>
+    <span class="block pt-6 pb-3">Frameworks / Libraries</span>
     <div class="flex gap-4">
-      <AppImage src="{svelte}" class="w-12 h-12" />
-      <!-- <AppImage src="{sveltekit}" class="w-12 h-12" /> -->
-      <AppImage src="{vuejs}" class="w-12 h-12" />
-      <AppImage src="{tailwind}" class="w-12 h-12" />
-      <AppImage src="{nodejs}" class="w-12 h-12" />
+      <AppImage src="{svelte}" class="w-12 h-12" alt="skill" />
+      <!-- <AppImage src="{sveltekit}" class="w-12 h-12" alt="skill" /> -->
+      <AppImage src="{vuejs}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{tailwind}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{nodejs}" class="w-12 h-12" alt="skill" />
       <AppImage src="{mongodb}" class="w-16 h-12" />
     </div>
 
-    <span class="block py-3">Tools / Platforms</span>
+    <span class="block pt-6 pb-3">Tools / Platforms</span>
     <div class="flex gap-4">
-      <AppImage src="{azure}" class="w-12 h-12" />
-      <!-- <AppImage src="{sveltekit}" class="w-12 h-12" /> -->
-      <AppImage src="{vscode}" class="w-12 h-12" />
-      <AppImage src="{npm}" class="w-12 h-12" />
-      <AppImage src="{figma}" class="w-12 h-12" />
-      <AppImage src="{postman}" class="w-12 h-12" />
-      <AppImage src="{ai}" class="w-12 h-12" />
+      <AppImage src="{azure}" class="w-12 h-12" alt="skill" />
+      <!-- <AppImage src="{sveltekit}" class="w-12 h-12" alt="skill" /> -->
+      <AppImage src="{vscode}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{npm}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{figma}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{postman}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{ai}" class="w-12 h-12" alt="skill" />
     </div>
   </div>
 
+  <span class="block pt-6 pb-3">Search and filter all my skills / technologies / tools </span>
   <input
     type="text"
-    placeholder="Search all skills / technologies / tools"
+    placeholder="Do you know ..."
     bind:value={searchQuery}
     on:input={filterTable}
-    class="mt-6 mb-4 p-2 border border-svOrange min-w-[380px] focus:outline-svOrange"
-  />
+    class="mb-4 p-2 border border-svOrange w-full md:min-w-[380px] focus:outline-svOrange"/>
   <div class="grid-container custom-scrollbar">
     <button
       class="bg-svOrange text-white uppercase text-sm font-bold py-3 px-6 cursor-pointer"
@@ -156,7 +158,9 @@
       </div>
     {/each}
     {#if filteredRows.length === 0}
-      <div class="grid-item col-span-3 text-center py-4 text-gray-600">No matching records found</div>
+      <div class="grid-item col-span-3 text-center py-4 text-gray-600">
+        Nope 🤕
+      </div>
     {/if}
   </div>
 </div>

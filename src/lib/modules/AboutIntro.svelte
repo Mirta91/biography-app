@@ -14,7 +14,7 @@
     showMore = !showMore;
     start = true;
   }
-  let introText =  `<p class="font-bold">My name is Mirta Štefanac, I'm a web developer, concentrated on <u>front-end technologies</u> based in Valencia, Spain. I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.</p>`;
+  let introText =  `<p class="font-bold">My name is <span class="rainbow-text">Mirta</span>, I'm a web developer, concentrated on <u>front-end technologies</u> based in Valencia, Spain. I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.</p>`;
 
   let showIntroText = false;
   setTimeout(() => {
@@ -25,7 +25,7 @@
 <div class="container py-10 max-w-screen-md">
      <div class="pt-6 pb-10 min-h-[220px]">
         {#if showIntroText}
-            <h3 class="text-xl pb-2">👩‍💻 About me</h3>
+            <h3 class="text-xl pb-2 font-bold">👩‍💻 About me</h3>
             <AppTypewriter 
                 text="{introText}" 
                 duration={3000} 
@@ -98,8 +98,12 @@
                 <li>Secondly, the app had to be fully optimized as internet access in Palestine is scarce; therefore, the forms for registering a business also had to be downloadable and printable.</li>
                 <li>Thirdly, culturally it was a big challenge due to different work ethics, expectations, and ways of communicating.</li>
             </ul> -->
-            
-            <span> TBD </span>
+            <p>
+                ...
+            </p>
+            <p> 
+                This year I decide to make a big change in my life. I moved to Spain and I quit my job in Croatia. So here I am @ <a href="https://www.maibornwolff.de/">Maibornwolff</a> interview! 🥳          
+            </p>
             
         </div>
         <AppButton

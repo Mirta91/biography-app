@@ -10,11 +10,10 @@
 
 </script>
 <svelte:head>
-	<title>Welcome</title>
-	<meta name="description" content="Mirta's bio web app" />
+	<title>Skills</title>
+	<meta name="description" content="Mirta's skills, technologies and tools" />
 </svelte:head>
 
 
-<AboutHeader />
-<AboutIntro />
-<!-- <AboutSkills skills="{data?.skills}" /> -->
+
+<AboutSkills skills="{data?.skills}" />

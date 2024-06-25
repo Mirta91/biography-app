@@ -14,10 +14,10 @@
 
         <h2 class="text-svOrange text-center text-xl pb-2">{title}</h2>
 
-        <AppImage src="{image}" alt="" class="h-44 w-full object-cover" />
+        <AppImage src="{image}" alt="alt - {title}" class="h-44 w-full object-cover" />
 
         {#if icon}
-            <AppImage src="{icon}" alt="" class="w-10 h-10 absolute top-6 -left-3 z-10 rounded-full drop-shadow-lg" />
+            <AppImage src="{icon}" alt="icon" class="w-10 h-10 absolute top-6 -left-3 z-10 rounded-full drop-shadow-lg" />
         {/if}
         <p class="text-sm py-2">{@html description}</p> 
         

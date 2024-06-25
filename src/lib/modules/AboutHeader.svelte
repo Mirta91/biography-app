@@ -24,10 +24,10 @@
     <!-- <div class="bckg-img w-full h-full object-cover"></div> -->
     <AppImage src={background} alt="background" class="w-full h-full object-cover opacity-80 blur-[2px]"/>
     {#if visible}
-    <div transition:fade={{ delay: 500, duration: 500 }} class="absolute w-full h-full left-0 top-0 flex  flex-col md:flex-row justify-center items-center gap-7 md:gap-28">
+    <div transition:fade={{ delay: 500, duration: 500 }} class="max-w-screen-md absolute w-full h-full left-0 right-0 top-0 mx-auto flex flex-col md:flex-row justify-center items-center gap-7 md:gap-16">
         <AppImage src={mirta} alt="mirta" class="w-32 h-32 md:w-64 md:h-64 rounded-full border-4 border-white"/>
         <div class="text-white md:min-w-[302px]">
-            <h1 class="text-center md:text-left">
+            <h1 class="text-center md:text-left rainbow-text">
 				<AppTypewriter text="Mirta Štefanac" class=""></AppTypewriter>
 			</h1>       
             <h2 transition:fade={{ delay: 2800, duration: 500 }}>
@@ -65,4 +65,5 @@
 			background: #ff3e00;
 		}
 	}
+
 </style>

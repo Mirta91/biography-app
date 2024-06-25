@@ -6,3 +6,8 @@ export interface ProjectInterface {
     icon: string;
     tags: Array<{ name: string, link: string }>;
 }
+
+export interface DataInterface {
+    skills: JSON;
+    projects: JSON;
+}

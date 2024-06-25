@@ -1,7 +1,8 @@
 <script>
 
 import Projects from "./Projects.svelte";
-
+export let data; //: PageData;
+console.log({data})
 
 </script>
 
@@ -11,5 +12,5 @@ import Projects from "./Projects.svelte";
 </svelte:head>
 
 <div class="app-projects mt-24">
-    <Projects />
+    <Projects projects={data?.projects}/>
 </div>
