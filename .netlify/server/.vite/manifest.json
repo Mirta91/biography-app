@@ -1,0 +1,379 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_AppButton.js": {
+    "file": "chunks/AppButton.js",
+    "name": "AppButton",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_AppImage.js": {
+    "file": "chunks/AppImage.js",
+    "name": "AppImage",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_AppPopover.svelte_svelte_type_style_lang.js": {
+    "file": "_app/immutable/assets/AppPopover.BZw0a4tq.css",
+    "src": "_AppPopover.svelte_svelte_type_style_lang.js"
+  },
+  "_Counter.js": {
+    "file": "chunks/Counter.js",
+    "name": "Counter",
+    "imports": [
+      "_ssr.js",
+      "_AppButton.js",
+      "_index.js"
+    ]
+  },
+  "_Header.svelte_svelte_type_style_lang.js": {
+    "file": "_app/immutable/assets/Header.TfKbNnLB.css",
+    "src": "_Header.svelte_svelte_type_style_lang.js"
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js"
+    ]
+  },
+  "_collections.js": {
+    "file": "chunks/collections.js",
+    "name": "collections",
+    "imports": [
+      "_mongodb.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js"
+    ],
+    "dynamicImports": [
+      "src/hooks.server.ts"
+    ]
+  },
+  "_mongodb.js": {
+    "file": "chunks/mongodb.js",
+    "name": "mongodb"
+  },
+  "_prod-ssr.js": {
+    "file": "chunks/prod-ssr.js",
+    "name": "prod-ssr"
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "name": "stores",
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ]
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff": {
+    "file": "_app/immutable/assets/fira-mono-all-400-normal.B2mvLtSD.woff",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-cyrillic-400-normal.36-45Uyg.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.B04YIrm4.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-greek-400-normal.C3zng6O6.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-greek-ext-400-normal.CsqI23CO.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-latin-400-normal.DKjLVgQi.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal.D6XfiR-_.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_prod-ssr.js",
+      "_internal.js",
+      "_exports.js",
+      "_index.js"
+    ]
+  },
+  "src/hooks.server.ts": {
+    "file": "chunks/hooks.server.js",
+    "name": "hooks.server",
+    "src": "src/hooks.server.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_mongodb.js"
+    ]
+  },
+  "src/lib/images/bckg-code-1.jpg": {
+    "file": "_app/immutable/assets/bckg-code-1.C51qPf48.jpg",
+    "src": "src/lib/images/bckg-code-1.jpg"
+  },
+  "src/lib/images/mirta.jpeg": {
+    "file": "_app/immutable/assets/mirta.CGhEItpf.jpeg",
+    "src": "src/lib/images/mirta.jpeg"
+  },
+  "src/lib/images/rijeka.jpg": {
+    "file": "_app/immutable/assets/rijeka.D5fIcKzQ.jpg",
+    "src": "src/lib/images/rijeka.jpg"
+  },
+  "src/lib/images/skills/mongodb.svg": {
+    "file": "_app/immutable/assets/mongodb.C1CLCZqL.svg",
+    "src": "src/lib/images/skills/mongodb.svg"
+  },
+  "src/lib/images/skills/nodejs.svg": {
+    "file": "_app/immutable/assets/nodejs.CJ3H6Nm_.svg",
+    "src": "src/lib/images/skills/nodejs.svg"
+  },
+  "src/lib/images/skills/postman.svg": {
+    "file": "_app/immutable/assets/postman._cvE1JhI.svg",
+    "src": "src/lib/images/skills/postman.svg"
+  },
+  "src/lib/images/skills/sass.svg": {
+    "file": "_app/immutable/assets/sass.DKvQXNSD.svg",
+    "src": "src/lib/images/skills/sass.svg"
+  },
+  "src/lib/images/stack.png": {
+    "file": "_app/immutable/assets/stack.lOTo4Yi8.png",
+    "src": "src/lib/images/stack.png"
+  },
+  "src/lib/images/svelte-welcome.png": {
+    "file": "_app/immutable/assets/svelte-welcome.VNiyy3gC.png",
+    "src": "src/lib/images/svelte-welcome.png"
+  },
+  "src/lib/images/svelte-welcome.webp": {
+    "file": "_app/immutable/assets/svelte-welcome.0pIiHnVF.webp",
+    "src": "src/lib/images/svelte-welcome.webp"
+  },
+  "src/routes/(playground)/+layout.svelte": {
+    "file": "entries/pages/(playground)/_layout.svelte.js",
+    "name": "entries/pages/(playground)/_layout.svelte",
+    "src": "src/routes/(playground)/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Header.TfKbNnLB.css"
+    ]
+  },
+  "src/routes/(playground)/pokemon/+page.server.ts": {
+    "file": "entries/pages/(playground)/pokemon/_page.server.ts.js",
+    "name": "entries/pages/(playground)/pokemon/_page.server.ts",
+    "src": "src/routes/(playground)/pokemon/+page.server.ts",
+    "isEntry": true
+  },
+  "src/routes/(playground)/pokemon/+page.svelte": {
+    "file": "entries/pages/(playground)/pokemon/_page.svelte.js",
+    "name": "entries/pages/(playground)/pokemon/_page.svelte",
+    "src": "src/routes/(playground)/pokemon/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/(playground)/posts-fetch/+page.svelte": {
+    "file": "entries/pages/(playground)/posts-fetch/_page.svelte.js",
+    "name": "entries/pages/(playground)/posts-fetch/_page.svelte",
+    "src": "src/routes/(playground)/posts-fetch/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/(playground)/svelte/+page.svelte": {
+    "file": "entries/pages/(playground)/svelte/_page.svelte.js",
+    "name": "entries/pages/(playground)/svelte/_page.svelte",
+    "src": "src/routes/(playground)/svelte/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Counter.js",
+      "_AppButton.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.D1pr9EXI.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/svelte-welcome.0pIiHnVF.webp",
+      "_app/immutable/assets/svelte-welcome.VNiyy3gC.png"
+    ]
+  },
+  "src/routes/(playground)/test-no-js/+page.svelte": {
+    "file": "entries/pages/(playground)/test-no-js/_page.svelte.js",
+    "name": "entries/pages/(playground)/test-no-js/_page.svelte",
+    "src": "src/routes/(playground)/test-no-js/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/(playground)/test-no-js/+page.ts": {
+    "file": "entries/pages/(playground)/test-no-js/_page.ts.js",
+    "name": "entries/pages/(playground)/test-no-js/_page.ts",
+    "src": "src/routes/(playground)/test-no-js/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_prod-ssr.js"
+    ]
+  },
+  "src/routes/(playground)/test/+page.svelte": {
+    "file": "entries/pages/(playground)/test/_page.svelte.js",
+    "name": "entries/pages/(playground)/test/_page.svelte",
+    "src": "src/routes/(playground)/test/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Counter.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_AppImage.js",
+      "_stores.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.DxKGI6GF.css",
+      "_app/immutable/assets/Header.TfKbNnLB.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/stack.lOTo4Yi8.png",
+      "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.B04YIrm4.woff2",
+      "_app/immutable/assets/fira-mono-all-400-normal.B2mvLtSD.woff",
+      "_app/immutable/assets/fira-mono-cyrillic-400-normal.36-45Uyg.woff2",
+      "_app/immutable/assets/fira-mono-greek-ext-400-normal.CsqI23CO.woff2",
+      "_app/immutable/assets/fira-mono-greek-400-normal.C3zng6O6.woff2",
+      "_app/immutable/assets/fira-mono-latin-ext-400-normal.D6XfiR-_.woff2",
+      "_app/immutable/assets/fira-mono-latin-400-normal.DKjLVgQi.woff2"
+    ]
+  },
+  "src/routes/+page.server.ts": {
+    "file": "entries/pages/_page.server.ts.js",
+    "name": "entries/pages/_page.server.ts",
+    "src": "src/routes/+page.server.ts",
+    "isEntry": true
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_AppImage.js",
+      "_AppButton.js",
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/AppPopover.BZw0a4tq.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/bckg-code-1.C51qPf48.jpg"
+    ]
+  },
+  "src/routes/projects/+page.server.ts": {
+    "file": "entries/pages/projects/_page.server.ts.js",
+    "name": "entries/pages/projects/_page.server.ts",
+    "src": "src/routes/projects/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_collections.js"
+    ]
+  },
+  "src/routes/projects/+page.svelte": {
+    "file": "entries/pages/projects/_page.svelte.js",
+    "name": "entries/pages/projects/_page.svelte",
+    "src": "src/routes/projects/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_AppImage.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CMi-Ab7Y.css"
+    ]
+  },
+  "src/routes/skills/+page.server.ts": {
+    "file": "entries/pages/skills/_page.server.ts.js",
+    "name": "entries/pages/skills/_page.server.ts",
+    "src": "src/routes/skills/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_collections.js"
+    ]
+  },
+  "src/routes/skills/+page.svelte": {
+    "file": "entries/pages/skills/_page.svelte.js",
+    "name": "entries/pages/skills/_page.svelte",
+    "src": "src/routes/skills/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_AppImage.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DqtLuw7U.css",
+      "_app/immutable/assets/AppPopover.BZw0a4tq.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/sass.DKvQXNSD.svg",
+      "_app/immutable/assets/nodejs.CJ3H6Nm_.svg",
+      "_app/immutable/assets/mongodb.C1CLCZqL.svg",
+      "_app/immutable/assets/postman._cvE1JhI.svg"
+    ]
+  }
+}
