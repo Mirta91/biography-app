@@ -90,32 +90,32 @@
     </p>
     <span class="block pt-6 pb-3">Languages</span>
     <div class="flex gap-4">
-      <AppImage src="{html5}" class="w-12 h-12" alt="skill" />
-      <AppImage src="{css3}" class="w-12 h-12" alt="skill" />
-      <AppImage src="{sass}" class="w-12 h-12" alt="skill" />
-      <AppImage src="{javascript}" class="w-12 h-12" alt="skill" />
-      <AppImage src="{typescript}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{html5}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <AppImage src="{css3}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <AppImage src="{sass}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <AppImage src="{javascript}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <AppImage src="{typescript}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
     </div>
 
     <span class="block pt-6 pb-3">Frameworks / Libraries</span>
     <div class="flex gap-4">
-      <AppImage src="{svelte}" class="w-12 h-12" alt="skill" />
-      <!-- <AppImage src="{sveltekit}" class="w-12 h-12" alt="skill" /> -->
-      <AppImage src="{vuejs}" class="w-12 h-12" alt="skill" />
-      <AppImage src="{tailwind}" class="w-12 h-12" alt="skill" />
-      <AppImage src="{nodejs}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{svelte}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <!-- <AppImage src="{sveltekit}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" /> -->
+      <AppImage src="{vuejs}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <AppImage src="{tailwind}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <AppImage src="{nodejs}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
       <AppImage src="{mongodb}" class="w-16 h-12" />
     </div>
 
     <span class="block pt-6 pb-3">Tools / Platforms</span>
     <div class="flex gap-4">
-      <AppImage src="{azure}" class="w-12 h-12" alt="skill" />
-      <!-- <AppImage src="{sveltekit}" class="w-12 h-12" alt="skill" /> -->
-      <AppImage src="{vscode}" class="w-12 h-12" alt="skill" />
-      <AppImage src="{npm}" class="w-12 h-12" alt="skill" />
-      <AppImage src="{figma}" class="w-12 h-12" alt="skill" />
-      <AppImage src="{postman}" class="w-12 h-12" alt="skill" />
-      <AppImage src="{ai}" class="w-12 h-12" alt="skill" />
+      <AppImage src="{azure}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <!-- <AppImage src="{sveltekit}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" /> -->
+      <AppImage src="{vscode}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <AppImage src="{npm}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <AppImage src="{figma}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <AppImage src="{postman}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
+      <AppImage src="{ai}" class="w-10 h-10 md:w-12 md:h-12" alt="skill" />
     </div>
   </div>
 

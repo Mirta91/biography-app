@@ -2,11 +2,6 @@
 
 	import AboutHeader from "$lib/modules/AboutHeader.svelte";
 	import AboutIntro from "$lib/modules/AboutIntro.svelte";
-	import AboutSkills from "$lib/modules/AboutSkills.svelte";
-	//import type { PageData } from "./types";
-
-	export let data; //: PageData;
-	console.log({data})
 
 </script>
 <svelte:head>
@@ -17,4 +12,3 @@
 
 <AboutHeader />
 <AboutIntro />
-<!-- <AboutSkills skills="{data?.skills}" /> -->

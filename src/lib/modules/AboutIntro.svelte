@@ -39,19 +39,20 @@
             </span>
         {/if}
     </div>
-    <div class="overflow-hidden flex flex-col gap-y-5 transition-all duration-300 ease-in-out {showMore ? 'max-h-0 opacity-0 overflow-hidden' : 'max-h-[2000px] opacity-1 overflow-auto'}">
+    <div class="overflow-hidden flex flex-col gap-y-5 transition-all duration-300 ease-in-out {showMore ? 'max-h-0 opacity-0 overflow-hidden' : 'max-h-[3000px] opacity-1 overflow-auto'}">
     {#if start}
         <div class="flex flex-col gap-y-3">
             <p> TL; DR </p>
             <p>
                 I was born in 1991 in Rijeka
-                <AppPopover
-                    text=""
-                    class="">
-                    <div class="text-red-500">
+                <AppPopover class="">
+                    <div class="">
                         <AppImage src={rijeka} alt="rijeka" class="w-full h-full object-cover"/>
                     </div>
-                </AppPopover>, Croatia. After finishing high school, I moved to the capital to start my studies at the <a href="https://www.tvz.hr/en/undergraduate-professional-study-in-information-technology/" target="_blank">Polytechnic University Zagreb</a>. A few years later, I proudly obtained my bachelor's degree in web development.
+                </AppPopover>, Croatia. After finishing high school, I moved to the capital to start my studies at the <a href="https://www.tvz.hr/en/undergraduate-professional-study-in-information-technology/" target="_blank">Polytechnic University Zagreb</a>
+                <AppPopover  class="">
+                    <AppImage src="https://www.tvz.hr/wp-content/uploads/2024/02/TVZ.jpg" alt="tvz" class="w-full h-full object-cover" />
+                </AppPopover>. A few years later, I proudly obtained my bachelor's degree in web development.
             </p>
 
             <p>
@@ -59,7 +60,10 @@
             </p>
 
             <p>
-                Upon returning home, I enrolled in the <a href="https://www.foi.unizg.hr/en" target="_blank">Faculty of Organization and Informatics</a> in Varaždin, a town in northern Croatia. FOI is part of the University of Zagreb and is renowned for its comprehensive programs that blend information technology with organizational studies. After two years of rigorous coursework and research, I obtained my master's degree, further solidifying my expertise in web development and information systems.
+                Upon returning home, I enrolled in the <a href="https://www.foi.unizg.hr/en" target="_blank">Faculty of Organization and Informatics</a>
+                <AppPopover  class="">
+                    <AppImage src="https://ceciis.foi.hr/sites/default/files/Image%20gallery/ceciis-slider-8.jpg" alt="tvz" class="w-full h-full object-cover" />
+                </AppPopover> in Varaždin, a town in northern Croatia. FOI is part of the University of Zagreb and is renowned for its comprehensive programs that blend information technology with organizational studies. After two years of rigorous coursework and research, I obtained my master's degree, further solidifying my expertise in web development and information systems.
             </p>
 
             <p>

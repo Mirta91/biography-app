@@ -45,6 +45,7 @@
 				<a href="https://www.linkedin.com/in/mirtastefanac/" target="_blank">
 					<AppImage src={linkedin} class="w-6 h-6 p-1 b" alt="linkedin" />
 				</a>
+
 			</div>
         </div>
 		

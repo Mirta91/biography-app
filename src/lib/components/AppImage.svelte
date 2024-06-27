@@ -1,5 +1,4 @@
 <script lang="ts">
-
     export let src = "";
     export let alt = "";
     export let style = "";

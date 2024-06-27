@@ -2,8 +2,7 @@
 	import Counter from '$lib/modules/Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
-	import svelteAwesome from '$lib/images/awesome-svelte.svg';
-	import AppButton from '$lib/components/AppButton.svelte';
+ 	import AppButton from '$lib/components/AppButton.svelte';
 
 	let appName = "SvelteKit App"
 	let textColor = 'text-black';
@@ -16,12 +15,13 @@
 	let firstName = "", lastName = "";
 	//Any top-level statement can be made reactive by prefixing it with the $:
 	//Reactive statements run after other script code and before the component markup is rendered, whenever the values that they depend on have changed.
-	$: fullName = firstName + " "+ lastName;
+	$: fullName = firstName + " " + lastName;
+
 	$: user = "";
 
 	const toggle = () => {
 		textColor = textColor === 'text-black' ? 'text-svOrange' : 'text-black';
-		show = !show;
+	3
 	}
 
 	const addUser = (newUser: string) => {
