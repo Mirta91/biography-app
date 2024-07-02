@@ -97,6 +97,7 @@
 	<br>
 	<h2 class="text-lg font-bold underline">Reactivityyyy</h2>
 	<p> Full name is {fullName}</p><br>
+
 	<div class="flex gap-4">
 		<input bind:value={firstName} class="border rounded-md border-svOrange p-2"/>
 		<input bind:value={lastName} class="border rounded-md border-svOrange p-2"/>

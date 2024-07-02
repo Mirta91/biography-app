@@ -34,7 +34,7 @@
 </span>
 <style lang="scss">
     .app-popover {
-        @apply whitespace-normal absolute z-10 rounded-lg bg-white px-4 pb-4 pt-3 text-left w-max max-w-[600px];
+        @apply whitespace-normal absolute z-10 rounded-lg bg-white px-4 pb-4 pt-3 text-left w-max max-w-[300px] lg:max-w-[640px];
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     }
     .pos-left{

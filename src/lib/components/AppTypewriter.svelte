@@ -3,9 +3,9 @@
 	import { tweened } from 'svelte/motion'
 	import * as easingFns from 'svelte/easing';
     
-    const names = Object.keys(easingFns).filter(
+   /*  const names = Object.keys(easingFns).filter(
         n => !['default', '__moduleExports'].includes(n),
-    )
+    ) */
 
 	let positionStore
 	let position = 0

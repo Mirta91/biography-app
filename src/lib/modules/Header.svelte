@@ -33,9 +33,9 @@
 			<li aria-current={$page.url.pathname === '/projects' ? 'page' : undefined}>
 				<AppLink text="Projects" href="/projects"/>
 			</li>
-			<li aria-current={$page.url.pathname === '/svelte' ? 'page' : undefined}>
+			<!-- <li aria-current={$page.url.pathname === '/svelte' ? 'page' : undefined}>
 				<AppLink text="Playground" href="/svelte"/>
-			</li>
+			</li> -->
 			<!-- <li aria-current={$page.url.pathname === '/pokemon' ? 'page' : undefined}>
 				<AppLink text="Pokemons" href="/pokemon"/>
 			</li> -->

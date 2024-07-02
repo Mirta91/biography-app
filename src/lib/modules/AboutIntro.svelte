@@ -76,7 +76,7 @@
 
             <p>
                 After my internship in Barcelona was over, I returned to Croatia and was offered a position at <a href="https://www.infosit.com/" target="_blank">Infosit</a>, a well-known software development company. I accepted the offer and have been working there for the past seven years.
-                At Infosit, I started as a Junior Web Developer, slowly advancing to a Team Lead position due to my dedication and skill. Over the years, I have been involved in numerous projects, ranging from small websites to large-scale web applications. Some of the tasks during the years:</p>
+                At Infosit, I started as a Junior Web Developer, slowly advancing to a Team Lead position due to my dedication and skill. Over the years, I have been involved in numerous projects, ranging from small websites to large-scale web applications. </p>
             <!--<ul>
                 <li>Leading a team of 6</li>
                 <li></li>
@@ -106,7 +106,7 @@
                 ...
             </p>
             <p> 
-                This year I decide to make a big change in my life. I moved to Spain and I quit my job in Croatia. So here I am @ <a href="https://www.maibornwolff.de/">Maibornwolff</a> interview! 🥳          
+                This year I decide to make a big change in my life. I moved to Spain and I quit my job in Croatia.          
             </p>
             
         </div>

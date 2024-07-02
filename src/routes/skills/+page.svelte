@@ -1,13 +1,11 @@
 <script lang="ts">
 
-	import AboutHeader from "$lib/modules/AboutHeader.svelte";
-	import AboutIntro from "$lib/modules/AboutIntro.svelte";
 	import AboutSkills from "$lib/modules/AboutSkills.svelte";
 	//import type { PageData } from "./types";
 
 	export let data; //: PageData;
-	console.log({data})
 
+	$: ({skills} = data)  //const { skills } = data
 </script>
 <svelte:head>
 	<title>Skills</title>
@@ -16,4 +14,4 @@
 
 
 
-<AboutSkills skills="{data?.skills}" />
+<AboutSkills skills="{skills}" />

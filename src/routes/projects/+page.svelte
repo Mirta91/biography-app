@@ -3,7 +3,7 @@
 import Projects from "./Projects.svelte";
 export let data; //: PageData;
 console.log({data})
-
+$: ({projects} = data)
 </script>
 
 <svelte:head>
@@ -12,5 +12,5 @@ console.log({data})
 </svelte:head>
 
 <div class="app-projects mt-24">
-    <Projects projects={data?.projects}/>
+    <Projects projects={projects}/>
 </div>
